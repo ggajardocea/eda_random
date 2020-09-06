@@ -1,3 +1,70 @@
 ]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ [K[userbda@ip-10-43-246-95 template]$ git init
 Initialized empty Git repository in /home/userbda/Documents/template/.git/
 ]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git add .
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git commit -m "initial commit"
+[master (root-commit) ba51039] initial commit
+ 6 files changed, 84 insertions(+)
+ create mode 100644 .Rproj.user/FE481C80/console06/2B7B763
+ create mode 100644 .Rproj.user/FE481C80/console06/2B7B763.env
+ create mode 100644 .Rproj.user/FE481C80/console06/INDEX001
+ create mode 100644 .Rproj.user/FE481C80/sources/s-de302787/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 template.Rproj
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git remote add origin remote repository https://github.com/ggajardocea/template
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ https://github.com/ggajardocea/template
+bash: https://github.com/ggajardocea/template: No such file or directory
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git remote -v
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git push -f origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git origin https://github.com/ggajardocea/template
+git: 'origin' is not a git command. See 'git --help'.
+git origin https://github.com/ggajardocea/template[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Ppush -f origin master[12Premote -vhttps://github.com/ggajardocea/template[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin remote repository https://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template[1Phttps://github.com/ggajardocea/template
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git remote add origin https://github.com/ggajardocea/template[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Ppush -f origin master[12Premote -v
+origin	https://github.com/ggajardocea/template (fetch)
+origin	https://github.com/ggajardocea/template (push)
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git remote -vadd origin https://github.com/ggajardocea/template[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v[K[Kgit push origin master
+To https://github.com/ggajardocea/template
+ [31m! [rejected]       [m master -> master (fetch first)
+[31merror: failed to push some refs to 'https://github.com/ggajardocea/template'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git pull
+warning: no common commits
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)Unpacking objects:  50% (2/4)Unpacking objects:  75% (3/4)Unpacking objects: 100% (4/4)Unpacking objects: 100% (4/4), 1.28 KiB | 1.28 MiB/s, done.
+From https://github.com/ggajardocea/template
+ * [new branch]      master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git branch --set-upstream-to=origin/<branch> master[1P master[1P master[1P master[1P master[1P master[1P master[1P master[1P masterm mastera masters mastert mastere masterr master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ [K[userbda@ip-10-43-246-95 template]$ git commit -m "primer commit"[1@a
