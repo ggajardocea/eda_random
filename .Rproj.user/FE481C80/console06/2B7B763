@@ -103,3 +103,33 @@ remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[K
 To https://github.com/ggajardocea/template
    46bdddc..ce104ec  master -> master
 ]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git a[Kcommit -am "se agrega[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit commit -am "commit con los readme"
+[master 3c36960] commit con los readme
+ 2 files changed, 37 insertions(+), 2 deletions(-)
+ rewrite .Rproj.user/FE481C80/console06/INDEX001 (71%)
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git ps[Kush
+Enumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 1.83 KiB | 1.83 MiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/ggajardocea/template
+   ce104ec..3c36960  master -> master
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .Rproj.user/FE481C80/console06/2B7B763[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mmodels/[m
+	[31mpreprocessing/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git add .
