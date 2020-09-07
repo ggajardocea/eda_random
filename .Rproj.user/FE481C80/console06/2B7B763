@@ -133,3 +133,73 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git add .
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git add .status[2Ppushcommit -am "commit con los readme"[1P
+[master 2dcf882] commit con los readme
+ 4 files changed, 46 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ create mode 100644 models/README.md
+ create mode 100644 preprocessing/README.md
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ git push
+Enumerating objects: 16, done.
+Counting objects:   6% (1/16)Counting objects:  12% (2/16)Counting objects:  18% (3/16)Counting objects:  25% (4/16)Counting objects:  31% (5/16)Counting objects:  37% (6/16)Counting objects:  43% (7/16)Counting objects:  50% (8/16)Counting objects:  56% (9/16)Counting objects:  62% (10/16)Counting objects:  68% (11/16)Counting objects:  75% (12/16)Counting objects:  81% (13/16)Counting objects:  87% (14/16)Counting objects:  93% (15/16)Counting objects: 100% (16/16)Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects:  12% (1/8)Compressing objects:  25% (2/8)Compressing objects:  37% (3/8)Compressing objects:  50% (4/8)Compressing objects:  62% (5/8)Compressing objects:  75% (6/8)Compressing objects:  87% (7/8)Compressing objects: 100% (8/8)Compressing objects: 100% (8/8), done.
+Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  81% (9/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 1.62 KiB | 1.62 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/ggajardocea/template
+   3c36960..2dcf882  master -> master
+ls
+[0m[01;34mfiles[0m  LICENSE  [01;34mmodels[0m  [01;34mpreprocessing[0m  README.md  template.Rproj
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ ls /mnt/shared-empresas/
+ls: reading directory '/mnt/shared-empresas/': Invalid argument
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ ls /mnt/shared-empresas/[Kgit pushcommit -m "commit con los readme"add .[Kstatus[2Ppushcommit -am "commit con los readme"push[Kll origin master --allow-unrelated-histories-f[K[Kshcommit -am "primer commit"branch --set-upstream-to=origin/master master[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpull[Ksh origin master[9Premote -vadd origin https://github.com/ggajardocea/template[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Ppush -f origin master[12Premote -vhttps://github.com/ggajardocea/template[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin remote repository https://github.com/ggajardocea/template[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[49Pcommit -m "initial commit"add .[K[1Pinitls /mnt/shared-empresas/files_others/[K[Ksudo mount -anano ~/.aws/credentials [2Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Psudo shutdownmount -ashutdownrm ~/.aws/credentials 
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ rm ~/.aws/credentials ls /mnt/shared-empresas/[Kgit pushcommit -m "commit con los readme"add .[Kstatus[2Ppushcommit -am "commit con los readme"push[Kll origin master --allow-unrelated-histories-f[K[Kshcommit -am "primer commit"branch --set-upstream-to=origin/master master[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpull[Ksh origin master[9Premote -vadd origin https://github.com/ggajardocea/template[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Ppush -f origin master[12Premote -vhttps://github.com/ggajardocea/template[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin remote repository https://github.com/ggajardocea/template[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[49Pcommit -m "initial commit"add .[K[1Pinitls /mnt/shared-empresas/files_others/[K[Ksudo mount -anano ~/.aws/credentials [2Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Psudo mount -anano ~/.aws/credentials 
+[?2004h[23;0;0t[?1l>[?2004l]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ sudo mount -a
+2020/09/07 01:11:02.836978 main.FATAL Unable to mount file system, see syslog for details
+2020/09/07 01:11:03.973799 main.FATAL Unable to mount file system, see syslog for details
+2020/09/07 01:11:05.157383 main.FATAL Unable to mount file system, see syslog for details
+2020/09/07 01:11:06.318672 main.FATAL Unable to mount file system, see syslog for details
+2020/09/07 01:11:07.438952 main.FATAL Unable to mount file system, see syslog for details
+2020/09/07 01:11:08.615753 main.FATAL Unable to mount file system, see syslog for details
+2020/09/07 01:11:09.821668 main.FATAL Unable to mount file system, see syslog for details
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ sudo mount -anano ~/.aws/credentials [2Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /mnt/shared-empresas/[Kgit pushls[K /mnt/shared-empresas/
+bfg-1.13.0.jar  [0m[01;34mfiles_others[0m  [01;34mfiles_project[0m
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ ls /mnt/shared-empresas/files_project/downgrade/fie[K[K[K[K/inp[K[K[K
+[0m[01;34mfiles[0m
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ ls /mnt/shared-empresas/files_project/downgrade/files/in[K[K
+[0m[01;34mdatasets[0m  [01;34mdocumentation[0m  [01;34mmodeling_output[0m  README.md
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ ls /mnt/shared-empresas/files_project/downgrade/files/datasets/in
+input/      intermedia/ 
+[userbda@ip-10-43-246-95 template]$ ls /mnt/shared-empresas/files_project/downgrade/files/datasets/input/
+ 00_PF_BASE_CLIENTES_Y_ACT_MOVIL_201910.log              Cambio_Planes_202005.csv
+ 00_PF_BASE_CLIENTES_Y_ACT_MOVIL.sas                     Cambio_Planes_202007.csv
+ [0m[01;34mACOC[0m                                                    [01;34mcambios_backoffice[0m
+ ACOC_201809_201911.txt                                  [01;34mcampañas[0m
+ ACOC_201911.txt                                         cf_por_rango_202006.txt
+ ACOC_2019.txt                                           [01;34mDeloitte[0m
+ ACOC_HISTORICO_202003.rds                               Dicc_planes_201911.txt
+ ACOC_HISTORICO_202005.rds                               Dicc_planes_202001.txt
+ ACOC_HISTORICO_202006.rds                               Dicc_planes_202002.txt
+ ACOC_HISTORICO_202007.rds                               Dicc_planes_202003.txt
+'Base Portout con Target.rds'                            Dicc_planes_historico.txt
+'Base Portout.rds'                                       dsctos_empresas.xlsx
+ [01;34mbases_churn[0m                                             equipos_plan.csv
+ [01;34mbases_downgrade[0m                                         [01;34mfiles[0m
+'Bases migradas consolidada VP Empresas 17012020.xlsx'   [01;34mFiltros_campana[0m
+'Bases migradas consolidada VP Empresas 19122019.rds'    [01;34minfo_equipos[0m
+'Bases migradas consolidada VP Empresas 19122019.xlsx'   [01;34mInteracciones[0m
+'Bases migradas consolidada VP Empresas 20191127.rds'    Maestro_planes_moviles_TDE_20191120_v7.xls
+'Bases migradas consolidada VP Empresas 26112019.xlsx'   Migraciones_actualizada_201909.xlsx
+'Bases migradas consolidada VP Empresas 27112019.xlsx'  'Modelo Potencial.xlsx'
+'Bases migradas consolidada VP Empresas.xlsx'            PF_ACTIVIDAD_VAS_MULTIMEDIA_201901_202002.csv
+ Cambio_Planes_2019.csv                                  PF_BASE_CLIENTES_Y_ACT_MOVIL_201910.csv
+ Cambio_Planes_2019.txt                                  PF_FACT_ACT_CUENTA_202001.txt
+ Cambio_Planes_202002.csv                                README.md
+ Cambio_Planes_20200420.csv
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ ls /mnt/shared-empresas/files_project/downgrade/files/datasets/input/files/input/
+experiment_01.csv  experiment_04.csv  experiment_07.csv  experiment_10.csv  experiment_13.csv  experiment_16.csv  README.txt
+experiment_02.csv  experiment_05.csv  experiment_08.csv  experiment_11.csv  experiment_14.csv  experiment_17.csv  test_artifact.jpg
+experiment_03.csv  experiment_06.csv  experiment_09.csv  experiment_12.csv  experiment_15.csv  experiment_18.csv  train.csv
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ ls /mnt/shared-empresas/files_project/downgrade/files/datasets/input/files/input/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K files[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@n[C[1@ [1@-[1@s[1@f
+]0;/home/userbda/Documents/template]0;userbda@ip-10-43-246-95:~/Documents/template[userbda@ip-10-43-246-95 template]$ [K[userbda@ip-10-43-246-95 template]$ 
